@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # README
 
 This README would normally document whatever steps are necessary to get the
@@ -22,3 +23,6 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+=======
+# Registro_Sistema_BKD
+>>>>>>> 56f4aaffa004db0a2b3e17912542a902ffbbbd00
