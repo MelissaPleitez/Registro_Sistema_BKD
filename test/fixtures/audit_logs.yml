@@ -1,0 +1,13 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  authentication: one
+  customer: one
+  action: 1
+  changes_client: MyString
+
+two:
+  authentication: two
+  customer: two
+  action: 1
+  changes_client: MyString
