@@ -57,18 +57,18 @@ Una vez ya este todo configurado en el archivo `config/database.yml` crea y migr
 - rails db:create
 - rails db:migrate
 
-## Configuracion de la secret key de JWT
+# Configuracion de la secret key de JWT
 Los JWT deben crearse con una clave secreta que sea privada. No debería revelarse al público. Cuando recibimos un JWT del cliente, 
-podemos verificarlo con esa clave secreta almacenada en el servidor, 
+podemos verificarlo con esa clave secreta almacenada en el servidor.
 
-# Podemos generar una llave secreta escribiendo lo siguiente en la terminal:
+## Podemos generar una llave secreta escribiendo lo siguiente en la terminal:
 - bundle exec rails secret
 
-# Luego lo agregaremos al archivo encrypted .yml para que no quede expuesto, este archivo se abre con el siguiente comando:
+## Luego lo agregaremos al archivo encrypted .yml para que no quede expuesto, este archivo se abre con el siguiente comando:
 
 - EDITOR='code --wait' rails credentials:edit
 
-# Luego agregamos la llave secreta de la siguiente forma:
+## Luego agregamos la llave secreta de la siguiente forma:
 - devise_jwt_secret_key: (copie y pegue la llave secreta generado aquí)
 
 
