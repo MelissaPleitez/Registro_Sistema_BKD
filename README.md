@@ -16,10 +16,9 @@ El archivo `config/database.yml` contiene la configuración de la base de datos.
 
 - Crea la base de datos usando PostgreSQL, a la mia la llame "System_app".
 - Crea un usuario con su contraseña y dale todos los privilegios
-- agrega la base de dato en el archivo `config/database.yml,
-- 
+- agrega la base de dato en el archivo `config/database.yml
 
-```yaml
+
 default: &default
   adapter: postgresql <---- cambia siempre este elemento exactamente como esta aqui
   encoding: unicode
@@ -42,6 +41,8 @@ production:
   database:  Nombre_de_tu_base_de_datos_production
   username: <%= ENV['DB_USERNAME'] %>
   password: <%= ENV['DB_PASSWORD'] %>
+
+
 
 ## Instalación
 
